@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="external.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .a{grid-area: a1;}
+        .b{grid-area: b1;}
+        .c{grid-area: c1;}
+        .d{grid-area: d1;}
+        .e{grid-area: e1;}
+        .f{grid-area: f1;}
+        .g{grid-area: g1;}
+        .h{grid-area: h1;}
+        .i{grid-area: i1;}
+        .j{grid-area: j1;}
+        .k{grid-area: k1;}
+        .l{grid-area: l1;}
+        .m{grid-area: m1;}
+        .n{grid-area: n1;}
+        .o{grid-area: o1;}
+        .maindiv{
+            display: grid;
+            grid-template-areas: "a1 b1 c1"
+            'd1 e1 f1'
+            'g1 h1 i1'
+            'j1 k1 l1'
+            'm1 n1 o1';
+            color: black;
+            padding: 20px;
+            margin: 20px;
+            text-align: center;
+            font-size: 30px;
+        }
+        .maindiv >div{
+            border: 1px solid;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 50px;
+            box-shadow: 10px 10px 10px  ;
+            width:420px;
+            height:450px ;
+            background-color: white;
+        }
+        img{
+            border-radius: 20px;
+            box-shadow: 10px 10px 10px;
+            width: 350px;
+            height: 200px;
+        }
+        p{
+            text-align: left;
+            color: black;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        button{
+            border-radius: 20px;
+            background-color:paleturquoise
+            border-color: white;
+            font-size: 11px;
+        }
+        body{
+            background-color:rgb(197, 226, 251);
+        }
+        .a{
+            font-size:65px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            background-image: url(indiagate.jpg);
+            color:ivory;
+        }
+         footer{
+            text-align: center;
+            justify-content: space-between;
+            padding: 5px;
+            color: black;
+            font-size: 20px;            
+        } 
+        .x{
+            display: flex;
+            justify-content: center;
+        }
+        .x img{
+            height: 40px;
+            width: 40px;
+        }
+        .y{
+            margin: 25px;
+        }        
+    </style>
+</head>
+<body>
+    <nav>
+        <a>About</a>
+        <a>Product</a>
+        <a>Commitment</a>
+        <a>Stories</a>
+       <a>India Blog</a>
+    </nav>
+    <div class="maindiv">
+        <div class="a"><u>14 - Historical places in India.</u></div>
+        <div class="b"><b>Taj mahal.</b>
+            <img src="taj1.jpg" width="260px" height="200px">
+            <p>The Taj Mahal (/ˌtɑːdʒ məˈhɑːl, ˌtɑːʒ-/;
+                lit. 'Crown of the Palace') is an ivory-white
+                marble mausoleum on the right bank of the river
+                Yamuna in Agra, Uttar Pradesh, India.
+            </p>
+            <button><a href="https://en.wikipedia.org/wiki/Taj_Mahal">See more...</a></button>
+        </div>
+        <div class="c"><b>Red fort.</b>
+            <img src="red fort.jpg" width="260px" height="200px">
+            <p>The Red Fort or Lal Qila (Hindustani: 
+                [laːl qiːlaː]) is a historic fort in
+                Delhi, India, that historically served 
+                as the main residence of the Mughal emperors.
+            </p>
+            <button><a href="https://en.wikipedia.org/wiki/Red_Fort">See more...</a></button>
+        </div>
+        <div class="d"><b>Humayun tomb.</b>
+            <img src="humayutomb.jpg"width="260px" height="200px">
+            <p>
+               Humayun's tomb (Persian: Maqbara-i Humayun)
+               is the tomb of Mughal emperor, Mirza Nasir
+               al-Din Muhammad commonly known as Humayun 
+               situated in Delhi, India.
+            </p>
+            <button><a href="https://en.wikipedia.org/wiki/Humayun%27s_Tomb">See more...</a></button>
+        </div>
+        <div class="e"><b>India gate.</b>
+            <img src="indiagate.jpg"width="260px" height="200px" >
+            <p>
+               The India Gate (formerly known as All 
+               India War Memorial) is a war memorial
+               located near the Kartavya path on the
+               eastern edge of the "ceremonial axis" 
+               of New Delhi.
+            </p>
+            <button><a href="https://en.wikipedia.org/wiki/India_Gate">See more...</a></button>
+        </div>
+        <div class="f"><b>Charminar</b>
+            <img src="charminar.jpg" width="260px" height="200px">
+            <p>
+               The Charminar (lit. 'four minarets') is a monument
+               located in Hyderabad, Telangana, India. Constructed
+               in 1591, the landmark is a symbol of Hyderabad.
+            </p>
+            <button><a href="https://en.wikipedia.org/wiki/Charminar">See more...></a></button>
+        </div> 
+        <div class="g"><b>Victorial memorial.</b>
+            <img src="victorial memorial.jpg"width='260px' height="200px">
+            <p>
+               The Victoria Memorial is a large marble monument on the
+               Maidan in Central Kolkata, having its entrance on the 
+               Queen's Way. It was built between 1906 and 1921 by the 
+               British Raj.
+            </p>
+               <button><a href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata">See more...</a></button>
+        </div>
+        <div class="h"><b>Gateway of india.</b>
+            <img src="gateway of india.jpg" width="260px" height="200px">
+            <p>
+               The Gateway of India is an arch-monument completed in 
+               1924 on the waterfront of Mumbai (Bombay), India. It
+               was erected to commemorate the landing of George V.
+            </p>
+            <button><a href="https://en.wikipedia.org/wiki/Gateway_of_India#:~:text=The%20monument%20commemorates%20the%20legacy,with%20the%20city%20of%20Mumbai.">See more...</a></button>
+        </div> 
+        <div class="i"><b>Virupaksha temple.</b>
+            <img src="virupakshak temple.jpg" width="260px" height="200px">
+            <p>
+                Virupaksha Temple (ʋɪruːpaː'kʂɐ) is located in Hampi in 
+                the Vijayanagara district of Karnataka, India, a glorious 7th 
+                century temple of Lord Shiva.
+            </p>
+            <button><a href="https://en.wikipedia.org/wiki/Virupaksha_Temple,_Hampi">See more...</a></button>
+        </div> 
+        <div class="j"><b>Qutub minar.</b>
+            <img src="Qutab_Minar.jpg" width="260px" height="200px">
+            <p>
+                Qutub Minar is a minaret or a victory tower located in
+                Qutub complex, a UNESCO World Heritage Site in Delhi's
+                Mehrauli area. With the height of 72.5 metres (238 ft).
+            </p>
+            <button><a href="https://en.wikipedia.org/wiki/Qutb_Minar">See more...</a></button>
+        </div>
+        <div class="k"><b>Hawa Mahal.</b>
+            <img src="hawa mahal.jpg" width="260px" height="200px">
+            <p>
+                Hawa Mahal, often referred to as the "Palace of Winds,
+                " is an iconic landmark in Jaipur, Rajasthan. This five
+                -story red and pink sandstone structure boasts 953 small
+                windows. 
+            </p>
+            <button><a href="https://en.wikipedia.org/wiki/Hawa_Mahal">See more...</a></button>
+        </div>
+        <div class="l"><b>Sun temple.</b>
+            <img src="sun temple.jpg" width="260px" height="200px">
+            <p>
+                Situated on the northeastern corner of Puri, Konark Sun
+                Temple is a UNESCO World Heritage site and one of the 
+                prime tourist attractions of Odisha.
+            </p>
+            <button><a href="https://en.wikipedia.org/wiki/Konark_Sun_Temple">See more...</a></button>
+        </div>
+        <div class="m"><b>Mysore Palace.</b>
+            <img src="mysore palace.jpg" width="260px" height="200px">
+            <p>
+                Mysore Palace, located in the heart of Mysore, is a splendid 
+                example of Indo-Saracenic architecture and one of the most
+                renowned palaces in India. With its opulent interiors.
+            </p>
+            <button><a href="https://en.wikipedia.org/wiki/Mysore_Palace">See more...</a></button>
+        </div>
+        <div class="n"><b>Jantar mantar.</b>
+            <img src="jantar mantar.jpg" width="260px" height="200px">
+            <p>
+                Jantar Mantar in Jaipur is a UNESCO World Heritage Site and a
+                remarkable collection of astronomical instruments built by 
+                Maharaja Jai Singh II in the 18th century.
+            </p>
+            <button><a href="https://en.wikipedia.org/wiki/Jantar_Mantar,_New_Delhi">See more...</a></button>
+        </div>
+        <div class="o"><b>Golden temple.</b>
+            <img src="golden temple.jpg" width="260px" height="200px">
+            <p>
+                The Golden Temple, also known as Sri Harmandir Sahib, is a sacred
+                and revered Sikh shrine located in Amritsar, Punjab.
+            </p>
+            <button><a href="https://en.wikipedia.org/wiki/Golden_Temple">See more...</a></button>
+        </div>
+    </div>
+    <footer>
+        <div class="x">
+        <div class="y">
+            <div><img src="data:image/webp;base64,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" alt=""></div>
+            <div>Google</div>
+        </div>
+        <div class="y">
+            <div><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAAAAABXZoBIAAAAnklEQVR4AeTNIQiDQABG4b+u17X1aF6PK3YEO9iMJqPVau82y4FgMezS0oVLhqsHtrcqeqzDXv3CEz/6L4yTtZM3dnHmPTtjzXZAXKYVo4agkU2GI2Lloc6JDez1+flswMu1EQZ3xlE7lK8eKDkjtwE+crBMV+wesKmCiisGGepZIfQJpMj9SNb2MYWrChjVkULuCyCfRvsdmBieyQQAsoDk/9ryhFMAAAAASUVORK5CYII=" alt=""></div>
+            <div>wikipedia</div>
+        </div>
+        </div>
+        <div>
+            <div>@ copyright 2024 | Terms |Privacy</div>
+        </div>
+    </footer>
+</body>
+</html>
